@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--===== Font Awesome =====-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!--===== Main CSS =====-->
+    <link rel="stylesheet" href="css/style.css">
+
+   
+</head>
+<body>
+      <!--===== Navbar Start =====-->
+      <nav class="navbar">
+          <div class="container">
+              <div class="row justify-content-between">
+                  <div class="logo"><a href="index.html">Mobile Appli<span>cation Developer</span></a></div>
+                  <div class="links">
+                  <ul class="menu">
+                      <li class="nav-item"><a href="#home" class="nav-link active">Home <span></span></a></li>
+                      <li class="nav-item"><a href="#about" class="nav-link">About <span></span></a></li>
+                      <li class="nav-item"><a href="#services" class="nav-link">Services <span></span></a></li>
+                      <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio <span></span></a></li>
+                      <!-- <li class="nav-item"><a href="#pricing" class="nav-link">Pricing <span></span></a></li> -->
+                      <li class="nav-item"><a href="#contact" class="nav-link">Contact <span></span></a></li>
+                      <!-- <li class="nav-item"><a href="#admin" class="nav-link">Admin <span></span></a></li> -->
+                     
+                  </ul>
+                  </div>
+                  <div class="menu-btn">
+                      <i class="fas fa-bars"></i>
+                  </div>
+              </div>
+          </div>
+      </nav>
+      <!--===== Navbar End =====-->
+      <!--===== Home Section Start =====-->
+      <section class="home-section" id="home">
+          <ul class="header-social"> <!--===== Header Social =====-->
+              <li><a href="https://github.com/talha7867?tab=repositories"><i class="fab fa-github"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="https://instagram.com/syntaxsolution8?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/talha-chadhar/"><i class="fab fa-linkedin"></i></a></li>
+          </ul>
+          <div class="container">
+              <div class="row align-items-center">
+                  <div class="home-text">
+                      <h4>Hello</h4>
+                      <h1>Muhammad Talha</h1>
+                      <span>Professional Mobile Application Developer</span>
+                      <p>I'M a software engineer with more than 3 years of work experience, significant ability in developing mobile applications</p>
+                           <a href="https://www.fiverr.com/talha6735/design-and-develop-android-apps-in-android" class="btn btn-1">purchase now</a>
+                  </div>
+                  <div class="home-image">
+                      <div class="img-box">
+                          <img src="images/My project.png" alt="">
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="header-hero-shape"></div> <!--===== Hero Shape =====-->
+      </section>
+
+      <!--===== Home Section End =====-->
+      <!-- <section id="admin">
+<div class="ad">
+      <div class="admin-login">
+        <h3 class="admin-heading">Admin Login</h3>
+        <div class="admin-field">
+          <label for="username">Username:</label>
+          <input type="text" id="username">
+        </div>
+        <div class="admin-field">
+          <label for="password">Password:</label>
+          <input type="password" id="password">
+        </div>
+        <button id="login" class="admin-button">Login</button>
+      </div>
+      
+     
+      <div class="admin-panel">
+        <h6 class="admin-heading">Admin Panel</h6>
+      
+       
+        <h3 class="admin-subheading">Hero Section</h3>
+        <div class="admin-field">
+          <label for="hero-image">Hero Image:</label>
+          <input type="file" id="hero-image" accept="image/*">
+        </div>
+        <div class="admin-field">
+          <label for="hero-text">Hero Text:</label>
+          <input type="text" id="hero-text">
+        </div>
+        <div class="admin-field">
+          <label for="hero-subtext">Hero Subtext:</label>
+          <input type="text" id="hero-subtext">
+        </div>
+        <button id="update-hero" class="admin-button">Update Hero</button>
+      
+      
+        <h3 class="admin-subheading">About Section</h3>
+        <div class="admin-field">
+          <label for="about-image">About Image:</label>
+          <input type="file" id="about-image" accept="image/*">
+        </div>
+        <div class="admin-field">
+          <label for="about-text">About Text:</label>
+          <textarea id="about-text" rows="4"></textarea>
+        </div>
+        <div class="admin-field">
+          <label for="skill-uiux">UI/UX Skill Percentage:</label>
+          <input type="number" id="skill-uiux" min="0" max="100">
+        </div>
+        <div class="admin-field">
+          <label for="skill-mobile">Mobile App Development Skill Percentage:</label>
+          <input type="number" id="skill-mobile" min="0" max="100">
+        </div>
+        <div class="admin-field">
+          <label for="skill-java">Java/Kotlin Skill Percentage:</label>
+          <input type="number" id="skill-java" min="0" max="100">
+        </div>
+        <div class="admin-field">
+          <label for="skill-api">API's Skill Percentage:</label>
+          <input type="number" id="skill-api" min="0" max="100">
+        </div>
+        <button id="update-about" class="admin-button">Update About</button>
+      
+       
+        <h3 class="admin-subheading">Services Section</h3>
+        <h4 class="admin-subtitle">Add/Edit Service</h4>
+        <div class="admin-field">
+          <label for="service-icon">Icon:</label>
+          <input type="text" id="service-icon">
+        </div>
+        <div class="admin-field">
+          <label for="service-title">Title:</label>
+          <input type="text" id="service-title">
+        </div>
+        <div class="admin-field">
+          <label for="service-description">Description:</label>
+          <textarea id="service-description" rows="4"></textarea>
+        </div>
+        <button id="add-service" class="admin-button">Add/Edit Service</button>
+        <hr>
+        <h4 class="admin-subtitle">Delete Service</h4>
+        <div class="admin-field">
+          <label for="delete-service">Select Service:</label>
+          <select id="delete-service"></select>
+        </div>
+        <button id="delete-button" class="admin-button">Delete</button>
+      </div>
+      
+    </div>
+</section>  -->
+
+
+
+<!-- Admin Panel -->
+<!-- <div class="admin-panel">
+    <h3>Admin Panel</h3>
+    <h4>Add Portfolio Item</h4>
+    <label for="portfolio-image">Image:</label>
+    <input type="file" id="portfolio-image" accept="image/*"><br>
+    <label for="portfolio-category">Category:</label>
+    <input type="text" id="portfolio-category"><br>
+    <button id="add-portfolio">Add Portfolio Item</button>
+    <hr>
+    <h4>Delete Portfolio Item</h4>
+    <label for="delete-portfolio">Select Item:</label>
+    <select id="delete-portfolio"></select>
+    <button id="delete-portfolio-button">Delete</button>
+  </div>
+
+
+
+
+
+
+      <!--===== About Section Start =====-->
+      <section class="about-section section-padding" id="about">
+          <div class="container">
+              <div class="row align-items-center justify-content-center">
+                  <div class="about-image">
+                      <div class="img-box">
+                          <img src="images/My project (2).png" alt="">
+                          <div class="about-shape"></div>
+                      </div>
+                  </div>
+                  <div class="about-content">
+                      <div class="section-title">
+                          <h5 class="sub-title">About</h5>
+                          <h3 class="main-title">Why You Hire Me?</h3>
+                          <ul class="line">
+                              <li></li>
+                              <li></li>
+                              <li></li>
+                          </ul>
+                      </div> <!--===== Section Title =====-->
+                      <p>I'm a professional Software engineer. I will provide the Apps development Services and working as an App developer of Android for the last two years and I'm highly confident in this field. I have a good set of skills in android App development to prove my efficiency and ability for my work. My utmost goal is to provide quality apps and having good relations with clients. I have excellent expertise in Firebase, Room, best UI/UX design, location services, API, third party API. Feel Free to contact.</p>
+                          <div class="about-skills">
+                              <div class="skill-item">
+                                  <div class="skill-header">
+                                      <h6 class="skill-title">UI/UX Design</h6>
+                                      <div class="skill-percentage">
+                                          <p><span class="counter">90</span>%</p>
+                                      </div>
+                                  </div>
+                                  <div class="skill-bar">
+                                      <div class="bar-inner">
+                                          <div class="bar progress-line" data-progress="90%"></div>
+                                      </div>
+                                  </div>
+                              </div> <!--===== Skill Item =====-->
+                              <div class="skill-item">
+                                <div class="skill-header">
+                                    <h6 class="skill-title">Mobile App Developemnt</h6>
+                                    <div class="skill-percentage">
+                                        <p><span class="counter">95</span>%</p>
+                                    </div>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="bar-inner">
+                                        <div class="bar progress-line" data-progress="95%"></div>
+                                    </div>
+                                </div>
+                            </div> <!--===== Skill Item =====-->
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <h6 class="skill-title">Java/Kotlin</h6>
+                                    <div class="skill-percentage">
+                                        <p><span class="counter">90</span>%</p>
+                                    </div>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="bar-inner">
+                                        <div class="bar progress-line" data-progress="90%"></div>
+                                    </div>
+                                </div>
+                            </div> <!--===== Skill Item =====-->
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <h6 class="skill-title">API'S </h6>
+                                    <div class="skill-percentage">
+                                        <p><span class="counter">70</span>%</p>
+                                    </div>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="bar-inner">
+                                        <div class="bar progress-line" data-progress="70%"></div>
+                                    </div>
+                                </div>
+                            </div> <!--===== Skill Item =====-->
+                          </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <!--===== About Section End =====-->
+      <!--===== Services Section Start =====-->
+      <section class="service-section section-padding" id="services">
+          <div class="container">
+              <div class="row">
+                <div class="section-title text-align">
+                    <h5 class="sub-title">services</h5>
+                    <h3 class="main-title">Services I Provide</h3>
+                    <ul class="line">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div> <!--===== Section Title =====-->
+              </div>
+              <div class="row">
+                   <!--===== Service Item Start =====-->
+                  <div class="service-item">
+                      <div class="service-item-inner">
+                          <div class="icon">
+                              <i class="fas fa-palette"></i>
+                          </div>
+                          <h3>UI/UX design</h3>
+                          <p>I have a strong understanding of user-centered design principles and a keen eye for detail
+                            and best practices to ensure that the UI/UX of the mobile apps I create is of the highest quality.</p>
+                      </div>
+                  </div>
+                  <!--===== Service Item End =====-->
+                  <!--===== Service Item Start =====-->
+                   <div class="service-item">
+                    <div class="service-item-inner">
+                        <div class="icon">
+                            <i class="fas fa-mobile-alt "></i>
+                        </div>
+                        <h3>App Developemnt</h3>
+                        <p>I have a strong understanding of the mobile app development process from ideation to deployment
+                        and I am proficient in programming languages such as Java and Kotlin and am comfortable collaborating with cross-functional teams to deliver high-quality products.
+
+                        </p>
+                    </div>
+                </div>
+                <!--===== Service Item End =====-->
+                <!--===== Service Item Start =====-->
+                 <div class="service-item">
+                    <div class="service-item-inner">
+                        <div class="icon">  
+                            <i class="fa fa-database"></i>
+                        </div>
+                        <h3>DataBase Intigration</h3>
+                        <p>I am skilled at using both SQLite and Firebase to design and implement efficient and scalable 
+                        databases for mobile apps, and am comfortable working with complex data structures and queries.</p>
+                    </div>
+                </div>
+                <!--===== Service Item End =====-->
+                <!--===== Service Item Start =====-->
+                 <div class="service-item">
+                    <div class="service-item-inner">
+                        <div class="icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Clean Code</h3>
+                        <p>I am a strong believer in the importance of clean, well-written code that is easy to understand 
+                            and maintain and also including participating in code reviews and learning from more experienced developers.
+
+                        </p>
+                    </div>
+                </div>
+                <!--===== Service Item End =====-->
+                <!--===== Service Item Start =====-->
+                 <div class="service-item">
+                    <div class="service-item-inner">
+                        <div class="icon">
+                            <i class="fa fa-credit-card"></i>
+                        </div>
+                        <h3>Payment Method</h3>
+                        <p>I have experience integrating various payment methods into mobile apps, 
+                        including credit and debit card processing, mobile wallet systems, and online payment gateways.</p>
+                    </div>
+                </div>
+                <!--===== Service Item End =====-->
+                <!--===== Service Item Start =====-->
+                 <div class="service-item">
+                    <div class="service-item-inner">
+                        <div class="icon">
+                            <i class="fas fa-bullhorn"></i>
+                        </div>
+                        <h3>great support</h3>
+                        <p>I am also available to provide technical support and assistance to users who may have questions or issues with the app,
+                         and am dedicated to building strong relationships with my clients to ensure their satisfaction and success.</p>
+                    </div>
+                </div>
+                <!--===== Service Item End =====-->
+              </div>
+          </div>
+      </section>
+      <!--===== Services Section End =====-->
+      <!--===== Portfolio Section Start =====-->
+      <section class="portfolio section-padding" id="portfolio">
+          <div class="container">
+            <div class="row">
+                <div class="section-title text-align">
+                    <h5 class="sub-title">Portfolio</h5>
+                    <h3 class="main-title">My latest work</h3>
+                    <ul class="line">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div> <!--===== Section Title =====-->
+              </div>
+              <div class="row">
+                  <div class="portfolio-filter">
+                      <button type="button" class="active" data-filter="all">All</button>
+                      <button type="button" data-filter="khaya265">khaya265</button>
+                      <button type="button" data-filter="waw">WAW Mobile App</button>
+                      <button type="button" data-filter="Job Alert Pakistan">Job Alert Pakistan</button>
+                      <button type="button" data-filter="Team Force">Team Force</button>
+                      <button type="button" data-filter="Papi Network">Papi Network</button>
+                  </div>
+              </div>
+              <div class="row"  id="portfolio-items">
+                  <!--===== portfolio-item start =====-->
+                 <!--===== portfolio-item start =====-->
+<div class="portfolio-item" data-category="khaya265">
+    <div class="portfolio-item-inner">
+      <div class="portfolio-img">
+        <a href="https://www.youtube.com/" target="_blank">
+          <img src="images/portfolio/khaya265.jpg" alt="" onclick="window.open('https://www.youtube.com/', '_blank')">
+        </a>
+      </div>
+      <div class="portfolio-info">
+        <div class="link-container"><!-- Container element for link text -->
+            <h3 style="color:white;">khaya265</h3>
+          <!-- <h4>https://play.google.com/store/apps/details?id=com.dev.khaya265.house.app/</h4> -->
+        </div>
+        <div class="icon">
+          <i class="fa fa-search"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+                   <!--===== portfolio-item end =====-->
+                   <!--===== portfolio-item start =====-->
+                  <div class="portfolio-item" data-category="waw">
+                    <div class="portfolio-item-inner">
+                        <div class="portfolio-img">
+                            <img src="images/portfolio/waw (1).jpg" alt="">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3 style="color:white;">WaW</h3>
+                            <!-- <h4 margin-top: 5px;>https://play.google.com/store/apps/details?id=uo.nexton.glab</h4> -->
+                            <div class="icon">
+                                <i class="fa fa-search"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <!--===== portfolio-item end =====-->
+                 <!--===== portfolio-item start =====-->
+                   <div class="portfolio-item" data-category="Team Force">
+                    <div class="portfolio-item-inner">
+                        <div class="portfolio-img">
+                            <img src="images/portfolio/teamforce.png" alt="">
+                        </div>
+                        <div class="portfolio-info">
+                            <h4 style="color:white;">Team Force</h4>
+                            <!-- <h4>https://www.youtube.com/</h4> -->
+                            <div class="icon">
+                                <i class="fa fa-search"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <!--===== portfolio-item end =====-->
+                 <!--===== portfolio-item start =====-->
+                   <div class="portfolio-item" data-category="Job Alert Pakistan">
+                    <div class="portfolio-item-inner">
+                        <div class="portfolio-img">
+                            <img src="images/portfolio/jobalert.png" alt="">
+                        </div>
+                        <div class="portfolio-info">
+                            <h4 style="color:white;">Job Alert Pakistan</h4>
+                            <div class="icon">
+                                <i class="fa fa-search"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <!--===== portfolio-item end =====-->
+                 <!--===== portfolio-item start =====-->
+                   <div class="portfolio-item" data-category="Papi Network">
+                    <div class="portfolio-item-inner">
+                        <div class="portfolio-img">
+                            <img src="images/portfolio/papi.png" alt="">
+                        </div>
+                        <div class="portfolio-info">
+                            <h4 style="color:white;">Papi Network</h4>
+                            <div class="icon">
+                                <i class="fa fa-search"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <!--===== portfolio-item end =====-->
+                 <!--===== portfolio-item start =====-->
+                   <!-- <div class="portfolio-item" data-category="photography">
+                    <div class="portfolio-item-inner">
+                        <div class="portfolio-img">
+                            <img src="images/portfolio/portfolio-6.jpg" alt="">
+                        </div>
+                        <div class="portfolio-info">
+                            <h4>photography</h4>
+                            <div class="icon">
+                                <i class="fa fa-search"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                 <!--===== portfolio-item end =====-->
+              </div>
+          </div>
+      </section>
+      <!--===== Portfolio Section End =====-->
+      <!--===== Pricing Section Start =====-->
+      <!-- <section class="pricing section-padding" id="pricing">
+          <div class="container">
+            <div class="row">
+                <div class="section-title text-align">
+                    <h5 class="sub-title">Pricing</h5>
+                    <h3 class="main-title">Pricing Plans</h3>
+                    <ul class="line">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div> <!--===== Section Title =====-->
+              <!-- </div>
+              <div class="row justify-content-center">
+                  <div class="pricing-item">
+                      <div class="pricing-plan">
+                          <div class="pricing-header">
+                              <h3>basic</h3>
+                          </div>
+                          <div class="pricing-price">
+                              <span class="currency">$</span>
+                              <span class="price">100</span>
+                              <!-- <span class="period">/2 or 3 screens</span> -->
+                          <!-- </div>
+                          <div class="pricing-body">
+                              <ul>
+                                  <li><i class="fa fa-check"></i>Application with 2 or 3 Screens </li>
+                                  <li><i class="fa fa-check"></i> Functional App </li>
+                                  <li><i class="fa fa-check"></i> DataBase Intigration </li>
+                                  <li><i class="fa fa-check"></i> Source File </li>
+                                  <li><i class="fa fa-check"></i> Unlimited Revisions </li>
+                              </ul>
+                          </div>
+                          <div class="pricing-footer">
+                              <a href="https://www.fiverr.com/talha6735/develop-flutter-android-ios-apps-and-be-your-flutter-developer" class="btn-2">get started</a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="pricing-item">
+                    <div class="pricing-plan">
+                        <div class="pricing-header">
+                            <h3>Standard</h3>
+                            <h2 class="best-value">best value</h2>
+                        </div>
+                        <div class="pricing-price">
+                            <span class="currency">$</span>
+                            <span class="price">300</span>
+                            <!-- <span class="period">/monthly</span> -->
+                        <!-- </div>
+                        <div class="pricing-body">
+                            <ul>
+                                <li><i class="fa fa-check"></i> Application with 3 to 8 Screens </li>
+                                <li><i class="fa fa-check"></i> Functional App </li>
+                                <li><i class="fa fa-check"></i> DataBase Intigration  </li>
+                                <li><i class="fa fa-check"></i> Payment Method </li>
+                                <li><i class="fa fa-check"></i> Unlimited Revisions </li>
+                            </ul>
+                        </div>
+                        <div class="pricing-footer">
+                            <a href="https://www.fiverr.com/talha6735/develop-flutter-android-ios-apps-and-be-your-flutter-developer" class="btn-1">get started</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="pricing-item">
+                    <div class="pricing-plan">
+                        <div class="pricing-header">
+                            <h3>Premium</h3>
+                        </div>
+                        <div class="pricing-price">
+                            <span class="currency">$</span>
+                            <span class="price">800</span>
+                            <span class="period"></span>
+                        </div>
+                        <div class="pricing-body">
+                            <ul>
+                                <li><i class="fa fa-check"></i> A premium App with Database and All Functions </li>
+                                <li><i class="fa fa-check"></i> Functional App </li>
+                                <li><i class="fa fa-check"></i> App Icon </li>
+                                <li><i class="fa fa-check"></i> 3 Months Free support </li>
+                                <li><i class="fa fa-check"></i> Unlimetd Revisions </li>
+                            </ul>
+                        </div>
+                        <div class="pricing-footer">
+                            <a href="#" class="btn-2">get started</a>
+                        </div>
+                    </div>
+                </div>
+              </div>
+          </div>
+      </section> --> 
+      <!--===== Pricing Section End =====-->
+      <!--===== Contact Section Start =====-->
+       <section class="contact-section section-padding" id="contact">
+           <div class="container">
+            <div class="row">
+                <div class="section-title text-align">
+                    <h5 class="sub-title">Contact</h5>
+                    <h3 class="main-title">Get in Touch</h3>
+                    <ul class="line">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div> <!--===== Section Title =====-->
+              </div>
+              <div class="row">
+                  <!--===== contact item start =====-->
+                  <div class="contact-item">
+                      <div class="contact-item-inner">
+                          <i class="fas fa-phone"></i>
+                          <span>Phone</span>
+                          <p>+923134224568</p>
+                      </div>
+                  </div>
+                  <!--===== contact item end =====-->
+                  <!--===== contact item start =====-->
+                   <div class="contact-item">
+                    <div class="contact-item-inner">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email</span>
+                        <p>officaltalha786@gmail.com</p>
+                    </div>
+                </div>
+                 <!--===== contact item end =====-->
+                 <!--===== contact item start =====-->
+                 <div class="contact-item">
+                    <div class="contact-item-inner">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Address</span>
+                        <p>Lahore,Punjab,Pakistan</p>
+                    </div>
+                </div>
+                 <!--===== contact item end =====-->
+              </div>
+                 <!--===== Contact Form =====-->
+              <!-- <div class="row">
+                  <div class="contact-form">
+                      <form action="">
+                          <div class="row">
+                              <div class="w-50">
+                                  <div class="input-group">
+                                      <input type="text" placeholder="Name" class="input-control">
+                                  </div>
+                                  <div class="input-group">
+                                    <input type="email" placeholder="Email" class="input-control">
+                                </div>
+                                <div class="input-group">
+                                    <input type="text" placeholder="Subject" class="input-control">
+                                </div>
+                              </div>
+                              <div class="w-50">
+                                  <div class="input-group">
+                                      <textarea name="" class="input-control" placeholder="Message" id="" cols="30" rows="10"></textarea>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="row">
+                              <div class="submit-btn">
+                                  <button type="submit" class="btn-1">Send Message</button>
+                              </div>
+                          </div>
+                      </form>
+                  </div>
+              </div> -->
+           </div>
+       </section>
+
+
+       <section id="admin">
+        <div class="ad">
+              <div class="admin-login">
+                <h3 class="admin-heading">Admin Login</h3>
+                <div class="admin-field">
+                  <label for="username">Username:</label>
+                  <input type="text" id="username">
+                </div>
+                <div class="admin-field">
+                  <label for="password">Password:</label>
+                  <input type="password" id="password">
+                </div>
+                <button id="login" class="admin-button">Login</button>
+              </div>
+              
+             
+              <div class="admin-panel">
+                <h6 class="admin-heading">Admin Panel</h6>
+              
+               
+                <h3 class="admin-subheading">Hero Section</h3>
+                <div class="admin-field">
+                  <label for="hero-image">Hero Image:</label>
+                  <input type="file" id="hero-image" accept="image/*">
+                </div>
+                <div class="admin-field">
+                  <label for="hero-text">Hero Text:</label>
+                  <input type="text" id="hero-text">
+                </div>
+                <div class="admin-field">
+                  <label for="hero-subtext">Hero Subtext:</label>
+                  <input type="text" id="hero-subtext">
+                </div>
+                <button id="update-hero" class="admin-button">Update Hero</button>
+              
+              
+                <h3 class="admin-subheading">About Section</h3>
+                <div class="admin-field">
+                  <label for="about-image">About Image:</label>
+                  <input type="file" id="about-image" accept="image/*">
+                </div>
+                <div class="admin-field">
+                  <label for="about-text">About Text:</label>
+                  <textarea id="about-text" rows="4"></textarea>
+                </div>
+                <div class="admin-field">
+                  <label for="skill-uiux">UI/UX Skill Percentage:</label>
+                  <input type="number" id="skill-uiux" min="0" max="100">
+                </div>
+                <div class="admin-field">
+                  <label for="skill-mobile">Mobile App Development Skill Percentage:</label>
+                  <input type="number" id="skill-mobile" min="0" max="100">
+                </div>
+                <div class="admin-field">
+                  <label for="skill-java">Java/Kotlin Skill Percentage:</label>
+                  <input type="number" id="skill-java" min="0" max="100">
+                </div>
+                <div class="admin-field">
+                  <label for="skill-api">API's Skill Percentage:</label>
+                  <input type="number" id="skill-api" min="0" max="100">
+                </div>
+                <button id="update-about" class="admin-button">Update About</button>
+              
+               
+                <h3 class="admin-subheading">Services Section</h3>
+                <h4 class="admin-subtitle">Add/Edit Service</h4>
+                <div class="admin-field">
+                  <label for="service-icon">Icon:</label>
+                  <input type="text" id="service-icon">
+                </div>
+                <div class="admin-field">
+                  <label for="service-title">Title:</label>
+                  <input type="text" id="service-title">
+                </div>
+                <div class="admin-field">
+                  <label for="service-description">Description:</label>
+                  <textarea id="service-description" rows="4"></textarea>
+                </div>
+                <button id="add-service" class="admin-button">Add/Edit Service</button>
+                <hr>
+                <h4 class="admin-subtitle">Delete Service</h4>
+                <div class="admin-field">
+                  <label for="delete-service">Select Service:</label>
+                  <select id="delete-service"></select>
+                </div>
+                <button id="delete-button" class="admin-button">Delete</button>
+              </div>
+              
+            </div>
+        </section> 
+       <!--===== Contact Section End =====-->
+       <!--===== Footer Section Start =====-->
+       <footer class="footer">
+           <div class="container">
+               <div class="row justify-content-center">
+                   <p class="copyright-text">&copy; 2021 by Syntax Solution</p>
+               </div>
+           </div>
+       </footer>
+       <!--===== Footer Section End =====-->
+       <!--===== Lightbox Start =====-->
+      <div class="lightbox">
+          <div class="lightbox-content">
+              <div class="lightbox-close">&times;</div>
+              <img src="images/portfolio/portfolio-2.jpg" onclick="nextItem()" class="lightbox-img" alt="">
+              <div class="lightbox-caption">
+                  <div class="caption-text"></div>
+                  <div class="caption-counter"></div>
+              </div>
+          </div>
+          <div class="lightbox-controls">
+              <div class="prev-item" onclick="prevItem()"><i class="fa fa-angle-left"></i></div>
+              <div class="next-item" onclick="nextItem()"><i class="fa fa-angle-right"></i></div>
+          </div>
+      </div>
+      <!--===== Lightbox End =====-->
+      <!--===== Main JS =====-->
+      <!-- <script>
+        // Function to check if the user is an admin
+        function isAdmin() {
+          // Implement your authentication and authorization logic here
+          // For simplicity, we'll use a hardcoded admin role check
+          const userRole = 'admin';
+          return userRole === 'admin';
+        }
+      
+        // Function to toggle the display of the admin panel
+        function toggleAdminPanel() {
+          const adminPanel = document.getElementById('admin-panel');
+          if (isAdmin()) {
+            adminPanel.style.display = 'block';
+          } else {
+            adminPanel.style.display = 'none';
+          }
+        }
+      
+        // Call the toggleAdminPanel function on page load
+        toggleAdminPanel();
+      </script> -->
+      <script src="js/main.js"></script>
+</body>
+
+</html>
